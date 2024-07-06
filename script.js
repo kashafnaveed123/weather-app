@@ -82,3 +82,6 @@ const city = cityName.value.trim();
         const currentCity= city[0].toUpperCase()+city.slice(1);
     fetchWeather(currentCity);
 });
+locationBtn.addEventListener('click',()=>{
+    alert('Sorry!Current location is not aplied now.')
+})
